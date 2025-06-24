@@ -1,4 +1,4 @@
 {
-    "command": "source venv/bin/activate && uvicorn src.api.main:app --host <host> --port <port> --reload",
+    "command": "source venv/bin/activate && uvicorn src.api.main:app --host <host> --port <port> --reload --reload-dir src",
     "working_directory": "/home/kavia/workspace/code-generation/fasteventapi-57442-67c1495d/event_api_backend_workspace/event_api_backend"
 }
